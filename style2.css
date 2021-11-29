@@ -1,0 +1,249 @@
+body{
+	background-image: url(images/the-interior.png);
+	background-repeat: no-repeat;
+	position: relative;
+	width: 1440px;
+	height: 850px;
+}
+
+.signUp{
+	position: absolute;
+	width: 539px;
+	height: 741px;
+	left: 783px;
+	top: 80px;
+
+	background: rgba(255, 255, 255, 0.75);
+	border-radius: 40px;
+}
+
+.welcome{
+	font-family: Arial;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 21px;
+	line-height: 31px;
+	position: absolute;
+	left: 44px;
+	top: 24px;
+	bottom: 665px;
+	right: 294px;
+}
+
+.haveAcc{
+	font-family: Arial;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 13px;
+	line-height: 19px;
+	float: right;
+	position: absolute;
+	width: 122px;
+	height: 40px;
+	right: 44px;
+	top: 50px;
+	color: #8D8D8D;
+}
+
+.link{
+	text-decoration: none;
+	color: #779341;
+}
+
+.heading{
+	position: absolute;
+	width: 205px;
+	height: 73px;
+	left: 44px;
+	top: 17px;
+
+	font-family: Arial;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 55px;
+	line-height: 82px;
+}
+
+#green{
+	color: #779341;
+	font-weight: bold;
+}
+
+#email{
+	position: absolute;
+	left: 44px;
+	right: 189px;
+	top: 203px;
+	bottom: 514px;
+
+	font-family: Arial;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	line-height: 24px;
+}
+
+#signup-email{
+	width: 451px;
+	height: 57px;
+	position: absolute;
+	left: 44px;
+	right: 44px;
+	top: 240px;
+	bottom: 444px;
+
+	background: #FFFFFF;
+	border: 1px solid #ADADAD;
+	box-sizing: border-box;
+	border-radius: 9px;
+
+	padding: 19px 124px 19px 25px;
+}
+
+#signup-email:hover{
+	border-color: #4285F4;
+}
+
+#username{
+	position: absolute;
+	left: 44px;
+	right: 279px%;
+	top: 332px;
+	bottom: 385px;
+
+	font-family: Arial;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	line-height: 24px;
+}
+
+#signup-username{
+	position: absolute;
+	left: 44px;
+	right: 279px;
+	top: 361px;
+	bottom: 323px;
+
+	background: #FFFFFF;
+	border: 1px solid #ADADAD;
+	box-sizing: border-box;
+	border-radius: 9px;
+
+	padding: 20px 0px 16px 13px;
+}
+
+#signup-username:hover{
+	border-color: #4285F4;
+}
+
+#number{
+	position: absolute;
+	left: 279px;
+	right: 44px;
+	top: 332px;
+	bottom: 385px;
+
+	font-family: Arial;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	line-height: 24px;
+}
+
+#signup-number{
+	position: absolute;
+	left: 279px;
+	right: 44px;
+	top: 361px;
+	bottom: 323px;
+
+	background: #FFFFFF;
+	border: 1px solid #ADADAD;
+	box-sizing: border-box;
+	border-radius: 9px;
+
+	padding: 20px 0px 16px 13px;
+}
+
+#signup-number:hover{
+	border-color: #4285F4;
+}
+
+#pswrd{
+	position: absolute;
+	left: 44px;
+	right: 333px;
+	top: 438px;
+	bottom: 279px;
+
+	font-family: Arial;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	line-height: 24px;
+}
+
+#signup-pswrd{
+	width: 451px;
+	height: 57px;
+	position: absolute;
+	left: 44px;
+	right: 44px;
+	top: 475px;
+	bottom: 209px;
+
+	background: #FFFFFF;
+	border: 1px solid #ADADAD;
+	box-sizing: border-box;
+	border-radius: 9px;
+
+	padding-left: 25px;
+	padding-top: 19px;
+	padding-bottom: 19px;
+	padding-right: 124px;
+}
+
+#signup-pswrd:hover{
+	border-color: #4285F4;
+}
+
+#signUpButton{
+	position: absolute;
+	width: 236px;
+	height: 54px;
+	left: 259px;
+	top: 608px;
+
+	background: #779341;
+	box-shadow: 0px 4px 19px rgba(119, 147, 65, 0.3);
+	border-radius: 10px;
+	border: none;
+}
+
+#signUpButton:hover{
+	border: 2px solid #556B2F;
+}
+
+.text{
+	font-family: Arial;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 24px;
+	
+	color: #FFFFFF;
+	text-decoration: none;
+}
+
+#signup-username.error {
+  color: red;
+}
+
+#signup-pswrd.error {
+  color: red;
+}
+
+#signup-email.error {
+  color: red;
+}

@@ -1,0 +1,282 @@
+body{
+	background-image: url(images/the-interior.png);
+	background-repeat: no-repeat;
+	position: relative;
+	width: 1440px;
+	height: 850px;
+}
+
+.signIn{
+	position: absolute;
+	width: 539px;
+	height: 741px;
+	left: 783px;
+	top: 80px;
+
+	background: rgba(255, 255, 255, 0.75);
+	border-radius: 40px;
+}
+
+.welcome{
+	font-family: Arial;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 21px;
+	line-height: 31px;
+	position: absolute;
+	left: 44px;
+	top: 24px;
+	bottom: 665px;
+	right: 294px;
+}
+
+.haveAcc{
+	font-family: Arial;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 13px;
+	line-height: 19px;
+	float: right;
+	position: absolute;
+	width: 85px;
+	height: 40px;
+	left: 410px;
+	top: 50px;
+	color: #8D8D8D;
+}
+
+.link{
+	text-decoration: none;
+	color: #779341;
+}
+
+.heading{
+	position: absolute;
+	width: 182px;
+	height: 73px;
+	left: 44px;
+	top: 17px;
+
+	font-family: Arial;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 55px;
+	line-height: 82px;
+}
+
+#green{
+	color: #779341;
+}
+
+.btn{
+	position: absolute;
+	width: 298px;
+	height: 55px;
+	left: 44px;
+	top: 203px;
+
+	background: #E9F1FF;
+	border-radius: 9px;
+	border: none;
+}
+
+.btn:hover{
+	border-color: #87CEFA;
+}
+
+#btn-icon{
+	position: absolute;
+	width: 26px;
+	height: 26px;
+	left: 32px;
+	top: 15px;
+}
+
+#btn-text{
+	position: absolute;
+	width: 151px;
+	height: 24px;
+	left: 79px;
+	top: 15px;
+
+	font-family: Arial;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	line-height: 24px;
+	color: #4285F4;
+
+	text-decoration: none;
+}
+
+#btn-text:hover{
+	text-decoration: underline;
+}
+
+.media1{
+	position: absolute;
+	width: 60px;
+	height: 55px;
+	left: 362px;
+	top: 203px;
+
+	background: #FFFFFF;
+	border-radius: 9px;
+}
+
+#facebook-icon{
+	position: absolute;
+	width: 25.38px;
+	height: 25.37px;
+	left: 16.81px;
+	top: 12.65px;
+
+	background: #FFFFFF;
+	border-radius: 9px;
+}
+
+.media2{
+	position: absolute;
+	width: 60px;
+	height: 55px;
+	left: 435px;
+	top: 203px;
+
+	background: #FFFFFF;
+	border-radius: 9px;
+}
+
+#apple-icon{
+	position: absolute;
+	width: 25.38px;
+	height: 24.5px;
+	left: 16.81px;
+	top: 14.75px;
+}
+
+#username{
+	position: absolute;
+	left: 44px;
+	right: 190px;
+	top: 308px;
+	bottom: 409px;
+
+	font-family: Arial;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	line-height: 24px;
+}
+
+#signin-username{
+	width: 451px;
+	height: 57px;
+	position: absolute;
+	left: 44px;
+	right: 44px;
+	top: 345px;
+	bottom: 339px;
+
+	background: #FFFFFF;
+	border: 1px solid #ADADAD;
+	box-sizing: border-box;
+	border-radius: 9px;
+
+	padding-left: 25px;
+	padding-top: 19px;
+	padding-bottom: 19px;
+	padding-right: 124px;
+}
+
+#signin-username:hover{
+	border-color: #4285F4;
+}
+
+#pswrd{
+	position: absolute;
+	left: 44px;
+	right: 333px;
+	top: 438px;
+	bottom: 279px;
+
+	font-family: Arial;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	line-height: 24px;
+}
+
+#signin-pswrd{
+	width: 451px;
+	height: 57px;
+	position: absolute;
+	left: 44px;
+	right: 44px;
+	top: 475px;
+	bottom: 209px;
+
+	background: #FFFFFF;
+	border: 1px solid #ADADAD;
+	box-sizing: border-box;
+	border-radius: 9px;
+
+	padding-left: 25px;
+	padding-top: 19px;
+	padding-bottom: 19px;
+	padding-right: 124px;
+}
+
+#signin-pswrd:hover{
+	border-color: #4285F4;
+}
+
+#forgot{
+	position: absolute;
+	width: 108px;
+	height: 20px;
+	left: 387px;
+	top: 544px;
+
+	font-family: Arial;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 13px;
+	line-height: 19px;
+}
+
+#forgotP{
+	text-decoration: none;
+	color: #4285F4;
+}
+
+#forgotP:hover{
+	text-decoration: underline;
+}
+
+#signInButton{
+	position: absolute;
+	width: 236px;
+	height: 54px;
+	left: 259px;
+	top: 608px;
+
+	background: #779341;
+	box-shadow: 0px 4px 19px rgba(119, 147, 65, 0.3);
+	border-radius: 10px;
+	border: none;
+}
+
+#signInButton:hover{
+	border: 2px solid #556B2F;
+}
+
+.text{
+	font-family: Arial;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 24px;
+	
+	color: #FFFFFF;
+	text-decoration: none;
+}

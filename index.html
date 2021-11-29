@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Sign In</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<div class="signIn">
+		<p class="welcome">Welcome to <span id="green">LOREM</span></p>
+		<p class="haveAcc">No Account?<br><a class="link" href="signUp.html">Sign Up</a></p>
+		<p class="heading">Sign In</p>
+		<button class="btn"><img src="images/google.png" id="btn-icon"><a href="#" id="btn-text">Sign in with Google</a></button>
+		<div class="media1">
+			<a href="#Facebook"><img src="images/Facebook.png" id="facebook-icon"></a>
+		</div>
+		<div class="media2">
+			<a href="#Apple"><img src="images/apple.png" id="apple-icon"></a>
+		</div>
+		<form>
+			<label id="username">Enter your username or email address</label>
+			<input id="signin-username" type="text" name="username" placeholder="Username or email address">
+
+			<label id="pswrd">Enter your Password</label>
+			<input id="signin-pswrd" type="text" name="password" placeholder="Password">
+
+			<label id="forgot"><a href="#" id="forgotP">Forgot Password?</a></label>
+
+			<button type="button" id="signInButton"><a href="#" class="text">Sign In</a></button>
+		</form>
+	</div>
+	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+	<script>
+		$(document).ready(function() {
+			var signinUsername;
+			var signinPassword;
+			var account = [signinUsername, signinPassword];
+		  
+			$('#signInButton').on('click', function() {
+				var usernameEntry = $("#signin-username").val();
+				var passwordEntry = $("#signin-pswrd").val();
+				if (usernameEntry == account[0] && passwordEntry == account[1]) {
+					var saveObject = {"Username": account[0], "Password": account[1]};
+					localStorage.setItem("Current Username", JSON.stringify(saveObject));
+					console.log("WELCOME!!!");
+				} else {
+					console.log("Attempted Username " + usernameEntry);
+					console.log("Attempted Password " + passwordEntry);
+					console.log("You need to Sign Up");
+				};
+			});  
+		});
+	</script>
+</body>
+</html>
